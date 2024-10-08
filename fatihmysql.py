@@ -2,18 +2,18 @@ import mysql.connector
 from geopy.distance import geodesic
 from random import randint, choice
 
-# Veritabanı yhteys
+# Yhteys tietokantaan
 connection = mysql.connector.connect(
     host='127.0.0.1',  # localhost
     port=3306,
-    database='mpeli',  # Veritabanı adı
+    database='mpeli',  # Tietokannan nimi
     user='root',
-    password='123',  # Veritabanı şifreniz
-    autocommit=True,  # Veritabanı işlemlerinin otomatik onayı
-    collation='utf8mb4_general_ci'  # Karakter kümesi
+    password='123', # Tietokannan salasana
+    autocommit=True,  # Automaattinen commit-toiminto
+    collation='utf8mb4_general_ci'  # Merkkien käsittely
 )
 
-# Tek bir kursori oluşturuyoruz
+# Luodaan yksi kursori
 cursor = connection.cursor()
 
 
@@ -65,14 +65,14 @@ def anna_tavsiye(etaisyys, matka):
     print("Voisit kokeilla pohjoiseen tai itään seuraavaksi!")
 
 
-# Skorları veritabanına kaydet
+# Skorları tallennetaan tietokantaan
 def tallenna_skor(total_km):
     sql = "INSERT INTO highscore (score) VALUES (%s)"
     cursor.execute(sql, (total_km,))
     connection.commit()
 
 
-# En yüksek 3 skoru getir
+# Eniten pisteitä saaneet 3 käyttäjää näytetään
 def nayta_top3():
     sql = "SELECT score FROM highscore ORDER BY score ASC LIMIT 3"
     cursor.execute(sql)
@@ -148,18 +148,17 @@ def peli():
                     print("Valitettavasti yrityksesi loppuivat. Älä luovuta, harjoittelu tekee mestarin!")
                     return  # Peli päättyy
 
-    # Skor kaydet
+    # Skor tallennetaan tietokantaan
     tallenna_skor(total_km)
 
     print(f"\nOnnittelut! Pääsit kaikille lentokentille. Kokonaismatka: {total_km:.2f} km.")
 
-    # En iyi 3 skoru göster
+    # Eniten pisteitä saaneet 3 käyttäjää näytetään
     nayta_top3()
 
 
 if __name__ == "__main__":
     peli()
-
-# Veritabanı ja kursori suljetaan
+# Yhteys tietokantaan suljetaan
 cursor.close()
 connection.close()
