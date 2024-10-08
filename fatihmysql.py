@@ -65,7 +65,7 @@ def anna_tavsiye(etaisyys, matka):
     print("Voisit kokeilla pohjoiseen tai itään seuraavaksi!")
 
 
-# Skorları tallennetaan tietokantaan
+# Pisteet tallennetaan tietokantaan
 def tallenna_skor(total_km):
     sql = "INSERT INTO highscore (score) VALUES (%s)"
     cursor.execute(sql, (total_km,))
