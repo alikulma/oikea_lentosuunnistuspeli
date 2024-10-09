@@ -1,6 +1,7 @@
 import mysql.connector
 from geopy.distance import geodesic
 from tabulate import tabulate
+from turtle import *
 
 # Yhteys tietokantaan
 connection = mysql.connector.connect(
@@ -64,6 +65,21 @@ def nayta_top():
     print("Parhaat tulokset:")
     print(tabulate(top, headers=head, tablefmt="fancy_grid"))
 
+# Piirtää sydämen turtlella
+def sydan():
+    speed(2)
+    bgcolor("black")
+    color("red")
+    pensize(3)
+    begin_fill()
+    left(50)
+    forward(133)
+    circle(50, 200)
+    right(140)
+    circle(50, 200)
+    forward(133)
+    end_fill()
+    done()
 
 # Peli alkaa
 def peli():
@@ -170,6 +186,9 @@ def peli():
 
     # Eniten pisteitä saaneet käyttäjät näytetään
     nayta_top()
+
+    # Piirtää sydämen :)
+    sydan()
 
 # suorittaa pelin
 if __name__ == "__main__":
