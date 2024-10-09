@@ -7,8 +7,8 @@ connection = mysql.connector.connect(
     host='127.0.0.1',  # localhost
     port=3306,
     database='lentosuunnistuspeli',  # Tietokannan nimi
-    user='alisa',
-    password='0d4goqp8',  # Tietokannan salasana
+    user='käyttäjä',
+    password='salasana',  # Tietokannan salasana
     autocommit=True,  # Automaattinen commit-toiminto
 )
 
@@ -55,8 +55,8 @@ def tallenna_score(nimi, kokonaismatka):
     connection.commit()
 
 
-# Eniten pisteitä saaneet 3 käyttäjää näytetään
-def nayta_top3():
+# Parhaat tulokset tulostetaan
+def nayta_top():
     sql = "SELECT username, highscore FROM highscore ORDER BY highscore ASC"
     cursor.execute(sql)
     top = cursor.fetchall()
@@ -134,8 +134,10 @@ def peli():
             elif suunta == "itä":
                 pituus_nyt = pituus_nyt + (matka / 111.320)
 
+            # pelaajan uusi etäisyys
             etaisyys = laske_etaisyys(leveys_nyt, pituus_nyt, leveys_seuraava, pituus_seuraava)
 
+            # rasti löytyy tai ei löydy
             if etaisyys < 10:
                 print("Löysit lentokentän!")
                 break
@@ -145,6 +147,7 @@ def peli():
                 ero1 = (leveys_nyt - leveys_seuraava) * 110.574
                 ero2 = (pituus_nyt - pituus_seuraava) * 111.320
 
+                # suuntavinkki, jos lentokenttää ei löydy
                 if abs(ero1) > abs(ero2):
                     if ero1 > 5:
                         print("Vinkki: Kokeile lentää etelään.")
@@ -166,9 +169,9 @@ def peli():
     print(f"Onnittelut! Olet päässyt maaliin. Lensit {kokonaismatka:.2f} kilometriä.")
 
     # Eniten pisteitä saaneet käyttäjät näytetään
-    nayta_top3()
+    nayta_top()
 
-
+# suorittaa pelin
 if __name__ == "__main__":
     peli()
 
