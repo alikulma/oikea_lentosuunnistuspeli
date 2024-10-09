@@ -1,6 +1,7 @@
-## Tarina
-Olet lentäjä, jonka tehtävänä on suunnistaa maailmalla käyttäen lentokenttiä rasteinasi, samalla kuluttaen mahdollisimman vähän lentokilometrejä.
-## Tietokannan luominen
+## ✈️ Tarina ✈️
+Olet lentäjä, jonka tehtävänä on suunnistaa maailmalla käyttäen lentokenttiä rasteinasi, samalla kuluttaen mahdollisimman vähän lentokilometrejä. Jos olet aloitteleva lentäjä, voit lentää Suomessa. Jos olet saanut jonkin verran kokemusta, ovat rastit Euroopassa, ja taidokkaimmille lentäjille koko maailma on avoin. Annettuasi nimesi ja lentokokemuksesi määrän saat ensimmäisen rastisi. Sitten pystyt liikkumaan neljään pääilmansuuntaan valitsemasi määrän kilometrejä, kunnes saavut rastille, jolloin saat seuraavan lentokenttäsi. Jos rastin löytämisessä on vaikeuksia, saat suuntavihjeen. Kun vihdoin saavut viimeiselle rastille, saat tietää kuluttamasi lentokilometrit, ja myös miten pärjäsit verrattuna edellisiin suunnistuksiin.
+
+## 🩷 Tietokannan luominen 🩷
 Peli käyttää Tietokannat-kurssin flight_game-tietokantaa.
   1. Luo uusi tietokanta "lentosuunnistuspeli": `CREATE DATABASE lentosuunnistuspeli;`
   2. Vaihda tähän tietokantaan: `USE lentosuunnistuspeli;`
