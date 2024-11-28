@@ -1,18 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="279f2b37-0d41-4ab4-b6dc-9905acc6d63c" name="Changes" comment="" />
+    <list default="true" id="279f2b37-0d41-4ab4-b6dc-9905acc6d63c" name="Changes" comment="valmis koodi">
+      <change afterPath="$PROJECT_DIR$/lentopeli_sivu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lentopeli_tyylit.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;alikulma&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/alikulma/oikea_lentosuunnistuspeli.git&quot;,
+    &quot;accountId&quot;: &quot;9a5a1614-f824-4c01-8445-d72d70520ec7&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2mb7ClADd1e2i0AVoZ3XHPSiBET" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -21,17 +49,34 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Python.03_lentokenttien_valinen_etaisyys.executor": "Run",
+    "Python.alisan_koodit.executor": "Debug",
+    "Python.fatih_koodit.executor": "Run",
+    "Python.pelin_koodi.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Omistaja/PycharmProjects/JavaScript tehtävät/moduuli1/assignment7",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Omistaja\PycharmProjects\oikea_lentosuunnistuspeli" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-PY-242.20224.347" />
-        <option value="bundled-python-sdk-c2d6afa66fbe-39cff9de6eef-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.20224.347" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-PY-243.21565.199" />
+        <option value="bundled-python-sdk-cab1f2013843-4ae2d6a61b08-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.21565.199" />
       </set>
     </attachedChunks>
   </component>
@@ -43,11 +88,102 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727333296896</updated>
-      <workItem from="1727333299354" duration="2000" />
+      <workItem from="1727333299354" duration="624000" />
+      <workItem from="1727333938590" duration="4277000" />
+      <workItem from="1727338893204" duration="40000" />
+      <workItem from="1727338939935" duration="2732000" />
+      <workItem from="1727420954162" duration="1951000" />
+      <workItem from="1728294591503" duration="9771000" />
+      <workItem from="1728371974760" duration="28797000" />
+      <workItem from="1728459081687" duration="3097000" />
+      <workItem from="1729752463075" duration="25000" />
+      <workItem from="1732781807775" duration="398000" />
     </task>
+    <task id="LOCAL−00001" summary="aloitus">
+      <option name="closed" value="true" />
+      <created>1727333384606</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1727333384606</updated>
+    </task>
+    <task id="LOCAL−00002" summary="aloitus">
+      <option name="closed" value="true" />
+      <created>1727334563549</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1727334563549</updated>
+    </task>
+    <task id="LOCAL−00003" summary="aloitus">
+      <option name="closed" value="true" />
+      <created>1727338835966</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1727338835966</updated>
+    </task>
+    <task id="LOCAL−00004" summary="aloitus">
+      <option name="closed" value="true" />
+      <created>1727341594774</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1727341594774</updated>
+    </task>
+    <task id="LOCAL−00005" summary="päivitys">
+      <option name="closed" value="true" />
+      <created>1728305844141</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1728305844141</updated>
+    </task>
+    <task id="LOCAL−00006" summary="koodi valmis">
+      <option name="closed" value="true" />
+      <created>1728405163756</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1728405163756</updated>
+    </task>
+    <task id="LOCAL−00007" summary="viimeisiä muokkauksia">
+      <option name="closed" value="true" />
+      <created>1728459520504</created>
+      <option name="number" value="LOCAL−00007" />
+      <option name="presentableId" value="LOCAL−00007" />
+      <updated>1728459520504</updated>
+    </task>
+    <task id="LOCAL−00008" summary="valmis koodi">
+      <option name="closed" value="true" />
+      <created>1728465383502</created>
+      <option name="number" value="LOCAL−00008" />
+      <option name="presentableId" value="LOCAL−00008" />
+      <updated>1728465383502</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="aloitus" />
+    <MESSAGE value="päivitys" />
+    <MESSAGE value="koodi valmis" />
+    <MESSAGE value="viimeisiä muokkauksia" />
+    <MESSAGE value="valmis koodi" />
+    <option name="LAST_COMMIT_MESSAGE" value="valmis koodi" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/oikea_lentosuunnistuspeli$alisan_koodit.coverage" NAME="alisan_koodit Coverage Results" MODIFIED="1728405126590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/oikea_lentosuunnistuspeli$03_lentokenttien_valinen_etaisyys.coverage" NAME="03_lentokenttien_valinen_etaisyys Coverage Results" MODIFIED="1728376226214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../kokeiluja/mod8" />
+    <SUITE FILE_PATH="coverage/oikea_lentosuunnistuspeli$fatih_koodit.coverage" NAME="fatih_koodit Coverage Results" MODIFIED="1728403346662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../kokeiluja/mod8" />
+    <SUITE FILE_PATH="coverage/oikea_lentosuunnistuspeli$pelin_koodi.coverage" NAME="pelin_koodi Coverage Results" MODIFIED="1728465204402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
